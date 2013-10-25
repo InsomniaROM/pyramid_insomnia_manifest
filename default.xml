@@ -382,11 +382,9 @@
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   
   <!--Device Specific Vendors-->
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="lw" revision="jb43" groups="notdefault,vendor,asus" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="dt" revision="master" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="dt" revision="master" />
-  <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="ck" revision="jb43" >
+    <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="ck" revision="jb43" >
     <copyfile src="tools/build-insomnia.sh" dest="build-ck.sh" />
   </project>
   <!--<project path="vendor/lge" name="vendor_lge" remote="ck" revision="master" />-->
