@@ -55,7 +55,7 @@
   <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="dt" revision="jb43" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="dt" revision="jb43" />
-<!--  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />/>-->
+<!--  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="dt" revision="jb43" />/>-->
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="dt" revision="jb43" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="dt" revision="jb43" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="dt" revision="jb43" />
