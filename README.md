@@ -14,7 +14,7 @@ INITIALIZING REPOSITORY
 
 Init core trees without any device/kernel/vendor :
 
-    $  repo init -u git://github.com/InsomniaROM/pyramid_insomnia_manifest.git -b jb43
+    $  repo init -u git://github.com/InsomniaROM/pyramid_insomnia_manifest.git -b master
 
 
 
