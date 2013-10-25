@@ -11,8 +11,7 @@
   <remote name="github"
           fetch="https://github.com/" />
   <remote name="ck"
-          fetch="https://github.com/InsomniaROM/"
-          review="" />
+          fetch="https://github.com/InsomniaROM/" />
   <remote name="lw"
           fetch="https://github.com/LokiWuh/"
           review="" />
