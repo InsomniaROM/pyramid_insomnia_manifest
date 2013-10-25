@@ -391,7 +391,7 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
-  <project path="manifest" name="insomnia_manifest" remote="ck" revision="jb43" />
+  <project path="insomnia/manifest" name="pyramid_insomnia_manifest" remote="ck" revision="jb43" />
    
     
 </manifest>
