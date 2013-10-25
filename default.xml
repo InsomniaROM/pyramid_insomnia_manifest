@@ -49,17 +49,17 @@
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="dt" revision="master" />
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="dt" revision="master" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="dt" revision="master" />
-  <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="dt" revision="master" />
-  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="dt" revision="master" /> 
-  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="dt" revision="master" />
+  <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="dt" revision="cm-10.2" />
+  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="dt" revision="cm-10.2" /> 
+  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="dt" revision="cm-10.2" />
   <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="dt" revision="jb43" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="dt" revision="jb43" />
 <!--  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />/>-->
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="ck" revision="jb43" groups="notdefault,device,d2,d2tmo" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ck" revision="jb43" groups="notdefault,kernel,d2,d2att,d2tmo" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="dt" revision="jb43" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="dt" revision="jb43" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="dt" revision="jb43" />
  
   <!--System Specifics-->
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
@@ -410,7 +410,7 @@
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="lw" revision="jb43" groups="notdefault,vendor,asus" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="dt" revision="master" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ck" revision="master" groups="notdefault,vendor,samsung" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="dt" revision="master" />
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="ck" revision="jb43" >
     <copyfile src="tools/build-insomnia.sh" dest="build-ck.sh" />
   </project>
