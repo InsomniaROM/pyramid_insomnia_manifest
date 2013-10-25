@@ -12,7 +12,7 @@ Getting Started
 INITIALIZING REPOSITORY
 =======================
 
-Init core trees without any device/kernel/vendor :
+Init:
 
     $  repo init -u git://github.com/InsomniaROM/pyramid_manifest.git -b master
 
@@ -21,7 +21,7 @@ Init core trees without any device/kernel/vendor :
 
 sync repo :
 
-    $ repo sync
+    $ repo sync -j32
 
 
 
