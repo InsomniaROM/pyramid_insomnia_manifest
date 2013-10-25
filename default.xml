@@ -20,6 +20,8 @@
           fetch="git://android.git.linaro.org/" />
   <remote name="gh"
            fetch="git://github.com/" />
+  <remote name="dt"
+           fetch="git://github.com/" />
           
          
   <default revision="cm-10.2"
@@ -44,10 +46,10 @@
   <!--<project path="device/htc/tegra3-common" name="android_device_htc_tegra3-common" remote="ck" revision="cm-10.2" groups="notdefault,device,endeavoru" />-->
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="lw" revision="jb43" groups="notdefault,device,grouper" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="lw" revision="jb43" groups="notdefault,kernel,grouper" />
-  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="ck" revision="master" groups="notdefault,kernel,m7,m7tmo" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="ck" revision="master" groups="notdefault,device,m7,m7tmo" />
-  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ck" revision="master" groups="notdefault,device,m7,m7tmo" /> 
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="ck" revision="master" groups="notdefault,device,m7,m7tmo" />
+  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="dt" revision="master" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="dt" revision="master" />
+  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="dt" revision="master" />
+  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="dt" revision="master" />
   <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="ck" revision="cm-10.2" groups="notdefault,kernel,msm8660" />
   <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="ck" revision="cm-10.2" groups="notdefault,device,pyramid" /> 
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="ck" revision="cm-10.2" groups="notdefault,device,msm8660,pyramid,vigor" />
@@ -407,7 +409,7 @@
   
   <!--Device Specific Vendors-->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="lw" revision="jb43" groups="notdefault,vendor,asus" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="ck" revision="jb43" groups="notdefault,vendor,htc" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="dt" revision="master" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ck" revision="master" groups="notdefault,vendor,samsung" />
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="ck" revision="jb43" >
