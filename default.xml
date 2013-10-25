@@ -31,7 +31,6 @@
   <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="dt" revision="cm-10.2" />
   <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="dt" revision="cm-10.2" /> 
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="dt" revision="cm-10.2" />
-  <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
 
  
   <!--System Specifics-->
@@ -47,6 +46,7 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="ck" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
+  <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
