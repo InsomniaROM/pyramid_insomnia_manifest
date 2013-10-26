@@ -318,6 +318,7 @@
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="ck" revision="jb43" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="ck" revision="jb43" />
+  <project path="packages/apps/Onager" name="packages_apps_Onager" remote="ck" revision="master" />
   <project path="packages/apps/OneTimeInitializer" name="android_packages_apps_OneTimeInitializer" />
   <project path="packages/apps/PerformanceControl" name="platform_packages_apps_PerformanceControl" remote="ck" revision="master" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="ck" revision="jb43" />
